@@ -1,0 +1,26 @@
+{
+  "version": "4.0.0",
+  "whitelist_apps": [
+    "chrome.exe",
+    "Discord.exe",
+    "Telegram.exe"
+  ],
+  "dns": {
+    "doh_enabled": true,
+    "primary": "8.8.8.8",
+    "doh_url": "https://dns.google/resolve"
+  },
+  "junk_pool": [
+    "google.com",
+    "microsoft.com",
+    "apple.com",
+    "wikipedia.org",
+    "github.com",
+    "amazon.com"
+  ],
+  "strategies": {
+    "tcp_fragmentation": true,
+    "udp_obfuscation": true,
+    "ttl_value": 2
+  }
+}
