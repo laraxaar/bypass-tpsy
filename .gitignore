@@ -12,6 +12,7 @@ build2/
 *.lib
 *.dll
 *.pdb
+.vs/
 
 # Локальные файлы окружения/ИИ
 .clineignore
