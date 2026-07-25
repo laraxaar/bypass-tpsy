@@ -1,0 +1,6 @@
+FROM qwen2.5-coder:3b
+PARAMETER num_ctx 5000
+PARAMETER num_batch 20
+PARAMETER num_thread 4
+PARAMETER repeat_penalty 1.1
+PARAMETER temperature 0.3

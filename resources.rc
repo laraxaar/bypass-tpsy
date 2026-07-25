@@ -1,0 +1,11 @@
+// Resource file for embedding dependencies
+#include <windows.h>
+
+// WinDivert DLL
+WinDivert.dll RCDATA "libs/WinDivert.dll"
+
+// WinDivert64.sys driver
+WinDivert64.sys RCDATA "libs/WinDivert64.sys"
+
+// Wintun DLL
+wintun.dll RCDATA "libs/wintun.dll"

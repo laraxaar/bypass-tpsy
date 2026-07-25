@@ -1,14 +1,18 @@
-# Очередь компиляции
-bin/
-obj/
+# Сборка и временные папки
+build/
+build2/
+*.dir/
+*.vcxproj*
+*.sln
+
+# Бинарники и объектники
 *.exe
-*.pdb
-*.ilk
-
-# Библиотеки
-*.dll
+*.obj
+*.o
 *.lib
+*.dll
+*.pdb
 
-# VS
-.vs/
-out/
+# Локальные файлы окружения/ИИ
+.clineignore
+.gitignore
